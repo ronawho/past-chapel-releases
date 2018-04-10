@@ -34,7 +34,7 @@ endif
 #
 # Flags for compiler, runtime, and generated code
 #
-COMP_CFLAGS = $(CFLAGS)
+COMP_CFLAGS = $(CFLAGS -fno-tree-vrp)
 COMP_CFLAGS_NONCHPL = -Wno-error
 RUNTIME_CFLAGS = -std=c99 $(CFLAGS)
 RUNTIME_GEN_CFLAGS = $(RUNTIME_CFLAGS)
