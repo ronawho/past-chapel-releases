@@ -1,0 +1,10 @@
+#
+# Copyright (c) 2004-2013, Cray Inc.  (See LICENSE file for more details)
+#
+
+#
+# CHPL_MAKE_LAUNCHER stuff
+#
+#
+#
+CHPL_MAKE_LAUNCHER = $(shell $(CHPL_MAKE_HOME)/util/chplenv/launcher)

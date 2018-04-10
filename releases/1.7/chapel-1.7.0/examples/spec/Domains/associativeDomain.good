@@ -1,0 +1,2 @@
+associativeDomain.chpl:1: warning: whole-domain assignment has been serialized (see note in $CHPL_HOME/STATUS)
+{foo, bar}
