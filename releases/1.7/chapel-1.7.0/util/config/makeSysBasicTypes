@@ -73,6 +73,8 @@ while(<PREPROC>) {
     # ignore #line
   } elsif( /^\/\// ) {
     # ignore comment
+  } elsif( /^$/ ) {
+    # ignore empty lines
   } elsif( /FIND_INT_SIZES_START/ ) {
     $keep = 1;
   } elsif( $keep ) {
